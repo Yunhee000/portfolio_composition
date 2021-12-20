@@ -45,13 +45,11 @@
 * **예측기로 LSTM을 사용한 투자자 전망**<br>
   종가를 예측한 후 상승, 하락, 유지를 계산해 투자자 전망을 만들었다.
   * 실제값을 이용한 예측<br>
-    <img width="318" alt="스크린샷 2021-12-16 오후 6 18 18" src="https://user-images.githubusercontent.com/87518915/146783917-62267db8-4628-45d7-b2bf-f5f0829f5720.png">
-    <img width="594" alt="스크린샷 2021-12-16 오후 6 19 06" src="https://user-images.githubusercontent.com/87518915/146783931-eaabc6ba-3be7-4777-b0fa-90a4e87e21c2.png">
+    <img width="318" alt="스크린샷 2021-12-16 오후 6 18 18" src="https://user-images.githubusercontent.com/87518915/146783917-62267db8-4628-45d7-b2bf-f5f0829f5720.png"> <img width="594" alt="스크린샷 2021-12-16 오후 6 19 06" src="https://user-images.githubusercontent.com/87518915/146783931-eaabc6ba-3be7-4777-b0fa-90a4e87e21c2.png">
     1년 투자시 누적 수익률은 **7.20%**, 최대낙폭은 **1.82%**, 샤프지수는 **2.83**<br><br>
   * 예측값을 이용한 예측<br>
     window size = 12개월
-    <img width="341" alt="스크린샷 2021-12-16 오후 6 21 09" src="https://user-images.githubusercontent.com/87518915/146784765-6ca5404b-8018-41dd-9276-22a5f3393c5a.png">
-    <img width="587" alt="스크린샷 2021-12-16 오후 6 22 52" src="https://user-images.githubusercontent.com/87518915/146784783-f877a5be-3ef3-4226-b2ab-f71c8c78e7cf.png">
+    <img width="341" alt="스크린샷 2021-12-16 오후 6 21 09" src="https://user-images.githubusercontent.com/87518915/146784765-6ca5404b-8018-41dd-9276-22a5f3393c5a.png"> <img width="587" alt="스크린샷 2021-12-16 오후 6 22 52" src="https://user-images.githubusercontent.com/87518915/146784783-f877a5be-3ef3-4226-b2ab-f71c8c78e7cf.png">
     1년 투자시 누적 수익률은 **0.34%**, 최대낙폭은 **2.18%**, 샤프지수는 **0.18**<br><br>
     * window size에 따른 변화<br>
       <img width="677" alt="스크린샷 2021-12-10 오후 5 21 38" src="https://user-images.githubusercontent.com/87518915/146785146-af3cb56f-e3b7-483a-849b-9b9c350ba917.png">
@@ -62,12 +60,10 @@
 * **예측기로 GRU를 사용한 투자자 전망**<br>
   * 실제값을 이용한 예측<br>
     window size = 12개월
-    <img width="329" alt="스크린샷 2021-12-16 오후 8 34 05" src="https://user-images.githubusercontent.com/87518915/146785967-5ca51d3b-b9e0-4432-91b5-1ebc9755533b.png">
-    <img width="590" alt="스크린샷 2021-12-16 오후 8 35 49" src="https://user-images.githubusercontent.com/87518915/146785997-438dd6bd-4257-4683-a1fb-a4b0856d729a.png">
+    <img width="329" alt="스크린샷 2021-12-16 오후 8 34 05" src="https://user-images.githubusercontent.com/87518915/146785967-5ca51d3b-b9e0-4432-91b5-1ebc9755533b.png"> <img width="590" alt="스크린샷 2021-12-16 오후 8 35 49" src="https://user-images.githubusercontent.com/87518915/146785997-438dd6bd-4257-4683-a1fb-a4b0856d729a.png">
     1년 투자시 누적 수익률은 **6.62%**, 최대낙폭은 **1.76%**, 샤프지수는 **5.38**<br><br>
   * 예측값을 이용한 예측<br>
-    <img width="311" alt="스크린샷 2021-12-16 오후 8 37 42" src="https://user-images.githubusercontent.com/87518915/146786211-95ea23da-c7de-4618-9190-72ffa7a9a306.png">
-    <img width="588" alt="스크린샷 2021-12-16 오후 8 37 50" src="https://user-images.githubusercontent.com/87518915/146786231-4993b630-c340-4916-911d-3ba7bf84dfe2.png">
+    <img width="311" alt="스크린샷 2021-12-16 오후 8 37 42" src="https://user-images.githubusercontent.com/87518915/146786211-95ea23da-c7de-4618-9190-72ffa7a9a306.png"> <img width="588" alt="스크린샷 2021-12-16 오후 8 37 50" src="https://user-images.githubusercontent.com/87518915/146786231-4993b630-c340-4916-911d-3ba7bf84dfe2.png">
     1년 투자시 누적 수익률은 **6.62%**, 최대낙폭은 **1.76%**, 샤프지수는 **2.79**<br><br>
     * window size에 따른 변화<br>
       <img width="678" alt="스크린샷 2021-12-16 오후 8 49 54" src="https://user-images.githubusercontent.com/87518915/146786421-875fe62a-a4e2-44dc-a413-ba35ad144211.png">
