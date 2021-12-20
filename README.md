@@ -33,6 +33,7 @@
   <img width="330" alt="스크린샷 2021-12-16 오후 4 21 56" src="https://user-images.githubusercontent.com/87518915/146782137-2f595671-1aab-45c9-9a32-611fd3c0c470.png">
   <img width="596" alt="스크린샷 2021-12-16 오후 4 22 45" src="https://user-images.githubusercontent.com/87518915/146782072-5b7a1d79-7c46-4018-9b46-904533576f9b.png">
   다음 그림을 보면 구성된 포트폴리오의 투자 비중, 2019년 1년을 투자했을 시에 1년간의 누적 수익률 변화 그래프를 볼 수 있다.
+
 ## Conclusion
 *
 ## Reports
