@@ -67,11 +67,11 @@
     1년 투자시 누적 수익률은 **6.62%**, 최대낙폭은 **1.76%**, 샤프지수는 **2.79**<br><br>
     * window size에 따른 변화<br>
       <img width="678" alt="스크린샷 2021-12-16 오후 8 49 54" src="https://user-images.githubusercontent.com/87518915/146786421-875fe62a-a4e2-44dc-a413-ba35ad144211.png"> <br>
-      LSTM과 동일하게 10, 11, 12개월일 때 가장 누적 수익률과 샤프지수가 높다.
+      LSTM과 동일하게 10, 11, 12개월일 때 가장 누적 수익률과 샤프지수가 높다.<br>
 
 * **세가지 예측기 비교**
   <img width="600" alt="스크린샷 2021-12-16 오후 8 56 48" src="https://user-images.githubusercontent.com/87518915/146786560-273b3212-f3eb-457b-9761-406f8759512d.png"> <br>
-  세가지 예측기 중 GRU를 사용했을 때 가장 포트폴리오 투자 성과가 좋았다.
+  세가지 예측기 중 GRU를 사용했을 때 가장 포트폴리오 투자 성과가 좋았다.<br>
 * **window size에 따른 투자 성과**
   <img width="599" alt="스크린샷 2021-12-10 오후 5 23 46" src="https://user-images.githubusercontent.com/87518915/146786798-07374592-31fd-4a2f-afd6-e2cbc3bf64ad.png"> <br>
   예측기를 사용해 포트폴리오를 구성한 논문에 따르면 다음과 같이 투자 기간과 비슷한 window size를 설정할 때 가장 투자 성과가 좋았다.<br>
