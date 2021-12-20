@@ -23,11 +23,11 @@
 * **데이터**<br>
 한국거래소가 발표한 KOSPI 200의 구성종목을 산업군별로 재분류하여 발표하고 있는 10개의 섹터지수를 사용하였다.<br>
 -건설, 중공업, 철강/소재, 에너지/화학, 정보기술, 금융, 생활소비재, 경기소비재, 산업재, 헬스케어
-<img width="636" alt="스크린샷_2021-12-16_오후_3 39 52" src="https://user-images.githubusercontent.com/87518915/146712207-8ca5f65b-926e-422f-bea6-fe1903018e6b.png">
+  <img width="636" alt="스크린샷_2021-12-16_오후_3 39 52" src="https://user-images.githubusercontent.com/87518915/146712207-8ca5f65b-926e-422f-bea6-fe1903018e6b.png">
 
 * 평균분산모형과 블랙리터만 모형의 비교<br>
 평균분산모형의 특정 자산군에 집중되는 코너해 문제와 입력변수에 민감한 문제를 해결하면서 투자자 전망을 결합한 모델이 블랙리터만 모델이다.
-<img width="697" alt="스크린샷 2021-12-16 오후 3 22 43" src="https://user-images.githubusercontent.com/87518915/146712384-9f10d3c1-131a-4b3d-b6db-0e73cd3d9939.png">
+  <img width="697" alt="스크린샷 2021-12-16 오후 3 22 43" src="https://user-images.githubusercontent.com/87518915/146712384-9f10d3c1-131a-4b3d-b6db-0e73cd3d9939.png">
 
 * **예측기로 SVM을 사용한 투자자 전망**<br>
   * 실제 값을 이용한 예측<br>
@@ -49,7 +49,14 @@
     <img width="594" alt="스크린샷 2021-12-16 오후 6 19 06" src="https://user-images.githubusercontent.com/87518915/146783931-eaabc6ba-3be7-4777-b0fa-90a4e87e21c2.png">
     1년 투자시 누적 수익률은 **7.20%**, 최대낙폭은 **1.82%**, 샤프지수는 **2.83**<br><br>
   * 예측값을 이용한 예측<br>
+    window size = 12개월
+    <img width="341" alt="스크린샷 2021-12-16 오후 6 21 09" src="https://user-images.githubusercontent.com/87518915/146784765-6ca5404b-8018-41dd-9276-22a5f3393c5a.png">
+    <img width="587" alt="스크린샷 2021-12-16 오후 6 22 52" src="https://user-images.githubusercontent.com/87518915/146784783-f877a5be-3ef3-4226-b2ab-f71c8c78e7cf.png">
+    1년 투자시 누적 수익률은 **0.34%**, 최대낙폭은 **2.18%**, 샤프지수는 **0.18**<<br><br>
+    * window size에 따른 변화<br>
+      <img width="677" alt="스크린샷 2021-12-10 오후 5 21 38" src="https://user-images.githubusercontent.com/87518915/146785146-af3cb56f-e3b7-483a-849b-9b9c350ba917.png">
 
+    
 
 
 ## Conclusion
