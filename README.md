@@ -84,4 +84,4 @@
 
 ## Reports
 * Midterm : [report](https://github.com/Yunhee000/portfolio_composition/blob/main/report/2019102084_%E1%84%80%E1%85%B5%E1%86%B7%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%92%E1%85%B4_%E1%84%8C%E1%85%AE%E1%86%BC%E1%84%80%E1%85%A1%E1%86%AB%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD.pdf)
-* Final : [report](https://github.com/Yunhee000/portfolio_composition/blob/main/report/2019102084_%E1%84%80%E1%85%B5%E1%86%B7%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%92%E1%85%B4_%E1%84%8E%E1%85%AC%E1%84%8C%E1%85%A9%E1%86%BC%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD.pdf)
+* Final : [report](https://github.com/Yunhee000/portfolio_composition/blob/main/report/2019102084_%E1%84%80%E1%85%B5%E1%86%B7%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%92%E1%85%B4_%E1%84%8E%E1%85%AC%E1%84%8C%E1%85%A9%E1%86%BC%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD.pdf) [video] (https://drive.google.com/file/d/1M-wD3ci-RDRd_7fJeEMk7Gu2GvcA-F1o/view?usp=sharing)
