@@ -9,16 +9,16 @@
   * 예측기를 사용하여 포트폴리오의 투자 비중을 결정하는데 이 때 구한 비중으로 총 수익률이 0% 이상이어야 한다.
   * 위험 대비 수익률의 지표인 샤프지수가 0.1 이상이 되도록 해야 한다.
 ## Schedule
-|Contents|Sep|Oct|Nov|Dec|Progress|
-|---|---|---|---|---|---|
-|논문 리뷰|✓|||✓||
-|주가 데이터 확보|✓|✓||||
-|주가 데이터 시각화||✓||||
-|블랙리터만 모델 구현||✓||||
-|SVM 활용 투자자 전망||✓|✓|||
-|LSTM 활용 투자자 전망|||✓|✓|중간발표.ipynb|
-|GRU 활용 투자자 전망||||✓||
-|결과 분석||||✓||
+|Contents|Sep|Oct|Nov|Dec|
+|---|---|---|---|---|
+|논문 리뷰|✓|||✓|
+|주가 데이터 확보|✓|✓|||
+|주가 데이터 시각화||✓|||
+|블랙리터만 모델 구현||✓|||
+|SVM 활용 투자자 전망||✓|✓||
+|LSTM 활용 투자자 전망|||✓|✓|
+|GRU 활용 투자자 전망||||✓|
+|결과 분석||||✓|
 ## Results
 * **데이터**<br>
 한국거래소가 발표한 KOSPI 200의 구성종목을 산업군별로 재분류하여 발표하고 있는 10개의 섹터지수를 사용하였다.<br>
@@ -49,11 +49,8 @@
     1년 투자시 누적 수익률은 **7.20%**, 최대낙폭은 **1.82%**, 샤프지수는 **2.83**<br><br>
   * 예측값을 이용한 예측<br>
     window size = 12개월<br>
-    <img width="341" alt="스크린샷 2021-12-16 오후 6 21 09" src="https://user-images.githubusercontent.com/87518915/146784765-6ca5404b-8018-41dd-9276-22a5f3393c5a.png"> <img width="587" alt="스크린샷 2021-12-16 오후 6 22 52" src="https://user-images.githubusercontent.com/87518915/146784783-f877a5be-3ef3-4226-b2ab-f71c8c78e7cf.png"> <br>
-    1년 투자시 누적 수익률은 **0.34%**, 최대낙폭은 **2.18%**, 샤프지수는 **0.18**<br><br>
-    * window size에 따른 변화<br>
-      <img width="677" alt="스크린샷 2021-12-10 오후 5 21 38" src="https://user-images.githubusercontent.com/87518915/146785146-af3cb56f-e3b7-483a-849b-9b9c350ba917.png"> <br>
-      window size가 10, 11, 12개월일 때 가장 누적 수익률과 샤프지수가 높다.
+    <img width="330" alt="스크린샷 2021-12-22 오전 12 07 54" src="https://user-images.githubusercontent.com/87518915/146952560-5bfd9d6c-b25b-46b6-9963-3973554ae6ca.png"> <img width="591" alt="스크린샷 2021-12-22 오전 12 08 02" src="https://user-images.githubusercontent.com/87518915/146952592-432eabd3-a5e3-47e3-bae4-3be3f3a2b0d7.png"> <br>
+    1년 투자시 누적 수익률은 **2.78%**, 최대낙폭은 **2.21%**, 샤프지수는 **0.65**<br><br>
   * SVM과 LSTM 비교<br>
     <img width="607" alt="스크린샷 2021-12-16 오후 8 57 34" src="https://user-images.githubusercontent.com/87518915/146785492-0e88cce1-6c2f-46b8-91a8-aa4e419abba3.png">
 
@@ -64,13 +61,13 @@
     1년 투자시 누적 수익률은 **6.62%**, 최대낙폭은 **1.76%**, 샤프지수는 **5.38**<br><br>
   * 예측값을 이용한 예측<br>
     <img width="311" alt="스크린샷 2021-12-16 오후 8 37 42" src="https://user-images.githubusercontent.com/87518915/146786211-95ea23da-c7de-4618-9190-72ffa7a9a306.png"> <img width="588" alt="스크린샷 2021-12-16 오후 8 37 50" src="https://user-images.githubusercontent.com/87518915/146786231-4993b630-c340-4916-911d-3ba7bf84dfe2.png"> <br>
-    1년 투자시 누적 수익률은 **6.62%**, 최대낙폭은 **1.76%**, 샤프지수는 **2.79**<br><br>
+    1년 투자시 누적 수익률은 **6.60%**, 최대낙폭은 **1.76%**, 샤프지수는 **2.79**<br><br>
     * window size에 따른 변화<br>
-      <img width="678" alt="스크린샷 2021-12-16 오후 8 49 54" src="https://user-images.githubusercontent.com/87518915/146786421-875fe62a-a4e2-44dc-a413-ba35ad144211.png"> <br>
-      LSTM과 동일하게 10, 11, 12개월일 때 가장 누적 수익률과 샤프지수가 높다.<br>
+      <img width="683" alt="스크린샷 2021-12-22 오전 12 10 40" src="https://user-images.githubusercontent.com/87518915/146952904-a055bb47-2d5c-4269-b77e-afb822554885.png"> <br>
+      12개월일 때 가장 누적 수익률과 샤프지수가 높다.<br>
 
-* **세가지 예측기 비교**
-  <img width="600" alt="스크린샷 2021-12-16 오후 8 56 48" src="https://user-images.githubusercontent.com/87518915/146786560-273b3212-f3eb-457b-9761-406f8759512d.png"> <br>
+* **세가지 예측기 비교**<br>
+  <img width="607" alt="스크린샷 2021-12-22 오전 12 11 23" src="https://user-images.githubusercontent.com/87518915/146953076-da65ee5a-2061-4691-bb7e-a17b79bbf3be.png"> <br>
   세가지 예측기 중 GRU를 사용했을 때 가장 포트폴리오 투자 성과가 좋았다.<br>
 * **window size에 따른 투자 성과**
   <img width="599" alt="스크린샷 2021-12-10 오후 5 23 46" src="https://user-images.githubusercontent.com/87518915/146786798-07374592-31fd-4a2f-afd6-e2cbc3bf64ad.png"> <br>
